@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.page-header-logo {
+    width: 240px;
+    height: 24px;
+    margin: 26px 41px 0px 1159px;
+}
+
+.left-column {
+    float: left;
+    width: 322px;
+    height: 780px;
+    margin: 16px 0px 0px 40px;
+}
+
+.creator-photo {
+    width: 322px;
+}
+
+.creator-info {
+    /*Указать размер*/
+    position: relative;
+    background-color: #F51B1B;
+    border-radius: 24px 24px 0px 0px;
+    padding-top: 40px;
+    height: 404px;
+    margin-top: -30px;
+}
+
+.general-info-container {
+    width: 233px;
+    height: 60px;
+    gap: 8px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.creator-name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.creator-info-general {
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts {
+    width: 230px;
+    height: 156px;
+
+}
+
+
+.contacts-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.telegram, .github, .email-address, .phone-number {
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+    padding-bottom: -10px;
+
+}
+
+.right-column {
+    float: right;
+    width: 968px;
+    height: 728px;
+    margin-top: 16px;
+    margin-right: 40px;
+}
+
+.about-me {
+    width: 690px;
+    height: 72px;
+    margin-bottom: 30px;
+}
+
+.about-me-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.attainments {
+    border: 1px solid white;
+    height: 606px;
+}
+
+.attainments-list {
+    padding-top: 10px;
+}
+.attainments-title {
+    width: 124px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.name-univercity {
+    width: 363px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.univercity-description {
+    color: grey;
+}
+
+.skills-item {
+    margin-left: -40px;
+}
